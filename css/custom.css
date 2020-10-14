@@ -1,3 +1,27 @@
 .text-bold{
     font-weight: bold;
 }
+
+header.act #logo{
+    margin-top: 10px;
+}
+
+#loader-wrapper{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    overflow: hidden;
+    background: #7f7f7f;
+}
+
+#loader-wrapper img {
+    position: absolute;
+    left: 46%;
+    top: 45%;
+    margin-left: 10px;
+    
+    z-index: 1;
+}       
