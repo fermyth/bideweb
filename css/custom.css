@@ -36,12 +36,60 @@ header.act #logo{
 .home-pages{
     background-image: url('../img/bide-images/bg-home.jpg'); 
     background-size: contain;
+
 }
+
+
 
 .text-home-pages{
     padding-top:280px; 
     padding-left: 150px;
 }
+
+.about-pages{
+    background-image: url('../img/bide-images/bg-about.jpg'); 
+    background-size: contain;
+    min-height: 800px;
+}
+.about-pages article{
+    padding-top:25px
+}
+
+.new-block{
+    padding-top:80px;
+}
+
+
+.about-pages article p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: black;
+    text-align:right;
+    margin-right: 20px;;
+    font-weight: 200;
+}
+
+
+.about-pages .baris-2 p{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    line-height: 1.2;
+    padding-left: 20px;
+    border-left-color: #f6b748;
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding-top: 15px;
+}
+
+@media (max-width:1920px) {
+    .container {
+        width:100vw;
+    }
+   }
 
 @media only screen and (max-width: 600px) {
     body {
