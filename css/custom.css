@@ -100,11 +100,30 @@ header.act #logo{
 }
 
 .service-pages-1 p{
-    color: black;
-    
+    color: black;    
     font-size: 4vh;
     line-height: 1.2;
     font-weight: bold;
+}
+
+.service-pages-2 {
+    background-image: url('../img/bide-images/bg-service-2.jpg'); 
+    background-size: 100vw;
+    min-height: 800px;
+}
+
+.service-pages-2 .service-2-left{
+    width: 37vw;
+}
+
+.service-pages-2 .service-2-headline{
+    font-size: 2.7vw;
+    line-height: 1.3;
+    text-transform: bold;
+    font-weight: normal;
+    font-family: 'arial';
+    text-align: center;
+    color:black;
 }
 
 @media (max-width:1920px) {
