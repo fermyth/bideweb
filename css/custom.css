@@ -85,6 +85,28 @@ header.act #logo{
     padding-top: 15px;
 }
 
+.service-pages-1 {
+    background-image: url('../img/bide-images/bg-service-1.jpg'); 
+    background-size: 100vw;
+    min-height: 800px;
+}
+
+.service-pages-1 .logo-text{
+    width: 20vw;
+    margin-right: 2vw;
+}
+.service-pages-1 .logo-service{
+    margin-bottom: 8vh !important;
+}
+
+.service-pages-1 p{
+    color: black;
+    
+    font-size: 4vh;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
 @media (max-width:1920px) {
     .container {
         width:100vw;
