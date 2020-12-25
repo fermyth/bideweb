@@ -124,6 +124,20 @@ header.act #logo{
     font-family: 'arial';
     text-align: center;
     color:black;
+    margin-bottom: 4vh !important;
+}
+
+.service-pages-2 .service-2-checklist{
+    width:4vw;
+}
+
+.service-pages-2 .service-2-right p{
+    display: inline-block;
+    color: black;
+    font-size: 2.0vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    line-height: 1.3;
 }
 
 @media (max-width:1920px) {
