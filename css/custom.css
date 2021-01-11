@@ -39,7 +39,12 @@ header.act #logo{
 
 }
 
-
+.home-pages .more-button{
+    border-color: black;
+    border-width: thin;
+    padding-bottom: 7px !important;
+    margin-top: 10px;
+}
 
 .text-home-pages{
     padding-top:280px; 
@@ -198,6 +203,10 @@ header.act #logo{
     background-size: 100vw;
     min-height: 800px;
     background-repeat: no-repeat;
+}
+
+.contact .contact-box{
+    margin-left: 4vw;
 }
 
 .contact .title{
