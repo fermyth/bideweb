@@ -171,6 +171,28 @@ header.act #logo{
     margin-top:3vh;
 }
 
+.how-to {
+    background-image: url('../img/bide-images/bg-howto.png'); 
+    background-size: 100vw;
+    min-height: 800px;
+    background-repeat: no-repeat;
+}
+
+.how-to .title{
+    margin-left:8vw;
+    color: black;
+    margin-top: 7vh;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.how-to .image-how-to{
+    width:75vw;
+    margin-left:10vw;
+    margin-top:10vh;
+    display: block;
+}
+
 @media (max-width:1920px) {
     .container {
         width:100vw;
