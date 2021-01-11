@@ -193,6 +193,30 @@ header.act #logo{
     display: block;
 }
 
+.contact {
+    background-image: url('../img/bide-images/bg-contact.jpg'); 
+    background-size: 100vw;
+    min-height: 800px;
+    background-repeat: no-repeat;
+}
+
+.contact .title{
+    color: black;
+    font-size: 3.5vw;
+    text-align: right;
+    margin-right: 2vw;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+
+.contact .description{
+    color: black;
+    text-align: right;
+    margin-top: 2vh;
+    font-size: 1.5vw;
+    margin-right: 2vw;
+}
+
 @media (max-width:1920px) {
     .container {
         width:100vw;
