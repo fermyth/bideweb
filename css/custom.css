@@ -98,9 +98,10 @@ header.act #logo{
 
 .service-pages-intro .service-intro-headline{
     color: black;
-    font-size: 8vh;
+    font-size: 50px;
     padding-top: 200px;
     text-align: center;
+    line-height: 1.3;
 }
 
 .service-pages-intro .scroll-intro{
@@ -127,7 +128,7 @@ header.act #logo{
 
 .service-pages-1 p{
     color: black;    
-    font-size: 5.5vh;
+    font-size: 32px;
     line-height: 1.2;
     font-weight: bold;
 }
