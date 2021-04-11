@@ -90,6 +90,26 @@ header.act #logo{
     padding-top: 15px;
 }
 
+.service-pages-intro{
+    background-image: url('../img/bide-images/bg-service-intro.jpg'); 
+    background-size: 100vw;
+    min-height: 800px;
+}
+
+.service-pages-intro .service-intro-headline{
+    color: black;
+    font-size: 8vh;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.service-pages-intro .scroll-intro{
+    color: black;
+    margin-left: 73vw;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
 .service-pages-1 {
     background-image: url('../img/bide-images/bg-service-1.jpg'); 
     background-size: 100vw;
