@@ -102,11 +102,12 @@ header.act #logo{
 }
 .service-pages-1 .logo-service{
     margin-bottom: 8vh !important;
+    font-size: 35px;
 }
 
 .service-pages-1 p{
     color: black;    
-    font-size: 4vh;
+    font-size: 5.5vh;
     line-height: 1.2;
     font-weight: bold;
 }
