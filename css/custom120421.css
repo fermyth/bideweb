@@ -220,6 +220,34 @@ header.act #logo{
     display: block;
 }
 
+.pricing {
+    background-image: url('../img/bide-images/bg-pricing.jpg'); 
+    background-size: 100vw;
+    min-height: 800px;
+    background-repeat: no-repeat;
+}
+
+.pricing .price-images-month img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+}
+
+.pricing .notes{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.3;
+}
+
+.pricing .payment-selection{
+    color: black;
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
 .contact {
     background-image: url('../img/bide-images/bg-contact.jpg'); 
     background-size: 100vw;
@@ -255,6 +283,70 @@ header.act #logo{
 .contact .desktop{
     display: block;
 }
+
+/* switch css */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
 
 @media (max-width:1920px) {
     .container {
